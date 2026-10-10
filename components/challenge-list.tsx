@@ -35,7 +35,7 @@ export function ChallengeList({ challenges }: { challenges: ChallengeSummary[] }
     <>
       <div className="mb-6 flex flex-col gap-3">
         <div className="flex flex-wrap items-center gap-2">
-          <span className="w-28 text-sm text-faint">Difficulty</span>
+          <span className="w-full text-sm text-faint sm:w-40">Difficulty</span>
           <button className={chip(!difficulty)} onClick={() => setDifficulty(null)}>
             Any
           </button>
@@ -47,9 +47,9 @@ export function ChallengeList({ challenges }: { challenges: ChallengeSummary[] }
         </div>
         <div className="flex flex-wrap items-center gap-2">
           {/* The useful filter for a contributor: where is a solution still wanted? */}
-          <span className="w-28 text-sm text-faint">Needs a solution in</span>
+          <span className="w-full text-sm text-faint sm:w-40">Needs a solution in</span>
           <button className={chip(!missing)} onClick={() => setMissing(null)}>
-            —
+            Any
           </button>
           {(Object.keys(LANGUAGES) as LanguageExt[]).map((ext) => (
             <button key={ext} className={chip(missing === ext)} onClick={() => setMissing(ext)}>

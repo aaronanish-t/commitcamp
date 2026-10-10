@@ -34,7 +34,7 @@ export function SolutionTabs({ solutions }: { solutions: RenderedSolution[] }) {
         ))}
       </div>
       {/* Highlighted on the server by Shiki from the solution file; it contains no markup of the author's. */}
-      <div role="tabpanel" dangerouslySetInnerHTML={{ __html: current.html }} />
+      <div role="tabpanel" className="lg:max-h-[60vh] lg:overflow-y-auto" dangerouslySetInnerHTML={{ __html: current.html }} />
     </div>
   );
 }

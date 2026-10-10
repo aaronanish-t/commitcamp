@@ -61,10 +61,10 @@ export default async function ChallengePage({ params }: PageProps<"/challenges/[
         </div>
       </header>
 
-      <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+      <div className="grid gap-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:items-start">
         <section className="prose min-w-0" dangerouslySetInnerHTML={{ __html: renderMarkdown(c.statement) }} />
 
-        <section className="min-w-0 space-y-6">
+        <section className="min-w-0 space-y-6 lg:sticky lg:top-6">
           <div>
             <h2 className="mb-3 font-semibold">Solutions</h2>
             <SolutionTabs solutions={solutions} />
