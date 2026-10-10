@@ -1,0 +1,8 @@
+name: Zulip
+repo: zulip/zulip
+description: Open-source team chat with an unusually thorough guide for new contributors.
+languages: [Python, TypeScript]
+tags: [django, web]
+# Zulip tags most newcomer-ready work "help wanted" rather than "good first issue".
+label: help wanted
+added_by: aaronanish-t

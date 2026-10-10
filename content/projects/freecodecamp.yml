@@ -1,0 +1,7 @@
+name: freeCodeCamp
+repo: freeCodeCamp/freeCodeCamp
+description: The curriculum and platform behind freeCodeCamp.org. Lots of small fixes to challenge text and tests.
+languages: [TypeScript, JavaScript]
+tags: [education, docs]
+label: first timers only
+added_by: aaronanish-t

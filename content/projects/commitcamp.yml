@@ -1,0 +1,6 @@
+name: CommitCamp
+repo: aaronanish-t/commitcamp
+description: This site. Add a challenge, a solution or a project and you are listed on the contributors page.
+languages: [TypeScript]
+tags: [nextjs, education]
+added_by: aaronanish-t

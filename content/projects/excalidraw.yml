@@ -1,0 +1,6 @@
+name: Excalidraw
+repo: excalidraw/excalidraw
+description: A hand-drawn style virtual whiteboard. A friendly codebase for a first React contribution.
+languages: [TypeScript]
+tags: [react, web]
+added_by: aaronanish-t

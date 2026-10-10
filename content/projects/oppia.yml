@@ -1,0 +1,6 @@
+name: Oppia
+repo: oppia/oppia
+description: A free online learning platform. Runs a structured onboarding process for new contributors.
+languages: [Python, TypeScript]
+tags: [education, angular]
+added_by: aaronanish-t

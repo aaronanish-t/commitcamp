@@ -1,0 +1,29 @@
+name: Project suggestion
+description: Suggest a beginner-friendly repository for the projects page
+labels: ["project"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Comfortable with a pull request? Adding the YAML file yourself is quicker. See [CONTRIBUTING.md](https://github.com/aaronanish-t/commitcamp/blob/main/CONTRIBUTING.md#add-a-project).
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      placeholder: owner/name
+    validations:
+      required: true
+  - type: input
+    id: label
+    attributes:
+      label: Starter-issue label
+      description: Exactly as it appears on the repo's Labels page.
+      placeholder: good first issue
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it good for beginners?
+    validations:
+      required: true

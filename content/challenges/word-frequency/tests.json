@@ -1,0 +1,6 @@
+[
+  { "input": "2\nThe cat and the hat.\nTHE END\n", "output": "the 3\nand 1\n" },
+  { "input": "5\nDon't stop, don't!\n", "output": "don 2\nt 2\nstop 1\n" },
+  { "input": "3\nb a c b a c b\n", "output": "b 3\na 2\nc 2\n" },
+  { "input": "1\n123 !!! ...\n", "output": "" }
+]

@@ -1,0 +1,6 @@
+[
+  { "input": "3 4\nS..#\n.#..\n...E\n", "output": "5\n" },
+  { "input": "1 2\nSE\n", "output": "1\n" },
+  { "input": "3 3\nS#.\n##.\n..E\n", "output": "-1\n" },
+  { "input": "5 5\nS....\n####.\n.....\n.####\n....E\n", "output": "16\n" }
+]

@@ -1,0 +1,7 @@
+name: p5.js
+repo: processing/p5.js
+description: A JavaScript library for creative coding, built by a community that welcomes first-time contributors.
+languages: [JavaScript]
+tags: [graphics, creative-coding]
+label: Good First Issue
+added_by: aaronanish-t

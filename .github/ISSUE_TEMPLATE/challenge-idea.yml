@@ -1,0 +1,38 @@
+name: Challenge idea
+description: Suggest a coding challenge (or claim one you want to write)
+labels: ["challenge", "good first issue"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: Balanced Brackets
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options: [easy, medium, hard]
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: The problem
+      description: A few sentences are enough. What's the input, and what should be printed?
+    validations:
+      required: true
+  - type: checkboxes
+    id: claim
+    attributes:
+      label: Writing it yourself?
+      options:
+        - label: I'd like to write this challenge myself
+  - type: checkboxes
+    id: original
+    attributes:
+      label: Originality
+      options:
+        - label: This isn't copied from LeetCode, HackerRank, Codeforces or a textbook
+          required: true

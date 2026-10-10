@@ -1,0 +1,5 @@
+[
+  { "input": "3\n([]{})\n([)]\nf(x[0]) + {y}\n", "output": "YES\nNO\nYES\n" },
+  { "input": "4\n((\n))\n}{\n\n", "output": "NO\nNO\nNO\nYES\n" },
+  { "input": "2\n{[()()]}[]\n{[(])}\n", "output": "YES\nNO\n" }
+]

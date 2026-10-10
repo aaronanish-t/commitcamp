@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contributing guide
+    url: https://github.com/aaronanish-t/commitcamp/blob/main/CONTRIBUTING.md
+    about: How to add solutions, challenges and projects. Most contributions don't need an issue first.

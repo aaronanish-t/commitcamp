@@ -1,0 +1,6 @@
+name: MDN Web Docs
+repo: mdn/content
+description: The documentation every web developer reads. Contributions are mostly Markdown, so no build setup is needed.
+languages: [Markdown]
+tags: [docs, web]
+added_by: aaronanish-t
